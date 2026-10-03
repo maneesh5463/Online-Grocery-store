@@ -111,7 +111,7 @@ const PRODUCTS = [...BASE_PRODUCTS];
 ADMIN_PRODUCTS.forEach(item => { const i = PRODUCTS.findIndex(p => p.id === item.id); if (i >= 0) PRODUCTS[i] = { ...PRODUCTS[i], ...item }; else PRODUCTS.push(item); });
 const PRODUCT_MAP = Object.fromEntries(PRODUCTS.map(p => [p.id, p]));
 const BASE_RECIPES=[ {
-    id:"pulihora",name:"Andhra Pulihora",image:"https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1000&q=85",region:"Andhra Pradesh",icon:"🍋",time:"30 min",serves:4,keywords:["pulihora","andhra","telugu","rice","lemon","south indian"],steps:["Cook rice and cool it completely.","Temper mustard, dal, chillies and curry leaves in oil.","Add turmeric and lemon juice, then mix gently with rice.","Rest for 15 minutes before serving."],items:[ {
+    id:"pulihora",name:"Andhra Pulihora",image:"https://thumbs.dreamstime.com/b/step-step-recipe-guide-making-pulihora-popular-rice-dish-andhra-cuisine-featuring-tamarind-rice-spices-curry-362241055.jpg",region:"Andhra Pradesh",icon:"🍋",time:"30 min",serves:4,keywords:["pulihora","andhra","telugu","rice","lemon","south indian"],steps:["Cook rice and cool it completely.","Temper mustard, dal, chillies and curry leaves in oil.","Add turmeric and lemon juice, then mix gently with rice.","Rest for 15 minutes before serving."],items:[ {
         id:"rice",qty:1
     }
 , {
@@ -126,7 +126,7 @@ const BASE_RECIPES=[ {
 ]
 }
 , {
-    id:"gutti-vankaya",name:"Gutti Vankaya Curry",image:"https://images.unsplash.com/photo-1526049332082-27f8e41d5e8a?auto=format&fit=crop&w=1000&q=85",region:"Andhra Pradesh / Telangana",icon:"🍆",time:"45 min",serves:4,keywords:["gutti vankaya","brinjal","andhra","telangana","telugu","curry"],steps:["Slit the brinjals without separating them.","Prepare a spicy masala with chilli, turmeric and oil.","Stuff the brinjals and cook covered until tender.","Finish with coriander and serve with rice."],items:[ {
+    id:"gutti-vankaya",name:"Gutti Vankaya Curry",image:"https://tse4.mm.bing.net/th/id/OIP.JjDFkKrSUG6pO2_EDEfK4AHaFo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",region:"Andhra Pradesh / Telangana",icon:"🍆",time:"45 min",serves:4,keywords:["gutti vankaya","brinjal","andhra","telangana","telugu","curry"],steps:["Slit the brinjals without separating them.","Prepare a spicy masala with chilli, turmeric and oil.","Stuff the brinjals and cook covered until tender.","Finish with coriander and serve with rice."],items:[ {
         id:"brinjal",qty:2
     }
 , {
@@ -270,7 +270,7 @@ const BASE_RECIPES=[ {
 ]
 }
 , {
-    id:"curd-rice",name:"South Indian Curd Rice",image:"https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=1000&q=85",region:"South India",icon:"🥛",time:"15 min",serves:3,keywords:["curd rice","daddojanam","perugu annam","telugu","south indian","budget"],steps:["Mix cooked rice with fresh curd.","Temper spices in oil and pour over the rice.","Add coriander and a little salt.","Chill briefly or serve at room temperature."],items:[ {
+    id:"curd-rice",name:"South Indian Curd Rice",image:"https://th.bing.com/th/id/OIP.iySbpqIRPyaNmI9cMC-88AHaHa?w=183&h=184&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",region:"South India",icon:"🥛",time:"15 min",serves:3,keywords:["curd rice","daddojanam","perugu annam","telugu","south indian","budget"],steps:["Mix cooked rice with fresh curd.","Temper spices in oil and pour over the rice.","Add coriander and a little salt.","Chill briefly or serve at room temperature."],items:[ {
         id:"rice",qty:1
     }
 , {
